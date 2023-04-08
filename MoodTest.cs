@@ -38,6 +38,14 @@ namespace MoodAnalyserTest
             Assert.AreEqual("SAD", mood);
         }
 
+        [TestMethod]
+        public void TestAnalyseMoodWithParameterizedConstructor2()
+        {
+            Mood analyser = new Mood("I am in Happy Mood");
+            string mood = analyser.AnalyseMood();
+            Assert.AreEqual("HAPPY", mood);
+        }
+
     }
 }      
 
