@@ -21,9 +21,9 @@ namespace MoodAnalyser
             {
                 return "SAD";
             }
-            else
+            else  
             {
-                return "Unknown";
+                return "HAPPY";
             }
         }
     }
